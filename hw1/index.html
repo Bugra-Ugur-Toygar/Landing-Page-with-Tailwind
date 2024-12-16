@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind CSS Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100">
+    <!-- Navbar -->
+    <header class="bg-white shadow-md sticky top-0 z-10">
+      <div class="container mx-auto flex justify-between items-center p-4">
+        <h1 class="text-2xl font-bold">Welcome to the Familiar Store</h1>
+        <nav>
+          <ul class="flex space-x-4">
+            <li>
+              <a href="#" class="text-gray-700 hover:text-purple-600"
+                >Refresh</a
+              >
+            </li>
+            <li>
+              <a href="#" class="text-gray-700 hover:text-purple-600"
+                >Sign in</a
+              >
+            </li>
+            <li>
+              <a href="#" class="text-gray-700 hover:text-purple-600"
+                >Sign up</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="flex flex-col md:flex-row items-center bg-white p-10">
+      <div class="md:w-1/2 mb-6 md:mb-0">
+        <h2 class="text-4xl font-bold mb-4">Build it with Familiars</h2>
+        <p class="text-gray-700 mb-6">
+          Modular and versatile. The ultimate design toolkit for savvy
+          technology startups.
+        </p>
+        <input
+          type="email"
+          placeholder="Your email"
+          class="border p-2 w-full mb-4 md:w-auto"
+        />
+        <button
+          class="bg-purple-600 text-white px-4 py-2 rounded hover:bg-purple-700"
+        >
+          Join the waitlist
+        </button>
+      </div>
+      <div class="md:w-1/2">
+        <img src="mothercat.JPEG" alt="Mother Cat" class="rounded-lg" />
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="container mx-auto p-10">
+      <h3 class="text-2xl font-bold text-center mb-6">
+        Building with Familiar is simple
+      </h3>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white p-4 shadow rounded">
+          <span class="text-purple-600 font-bold text-lg">1</span>
+          <h4 class="font-bold">Youth of the Boy</h4>
+          <img
+            src="youthoftheboy.JPEG"
+            alt="Youth of the Boy"
+            class="rounded-lg"
+          />
+          <p class="text-gray-700 mt-4">
+            Nostrum, corrupti blanditiis. Illum, architecto?
+          </p>
+        </div>
+        <div class="bg-white p-4 shadow rounded">
+          <span class="text-purple-600 font-bold text-lg">2</span>
+          <h4 class="font-bold">Beautiful Boy</h4>
+          <img src="beautifulboy.JPEG" alt="Beautiful Boy" class="rounded-lg" />
+          <p class="text-gray-700 mt-4">
+            Vitae saepe atque neque sunt eius dolor.
+          </p>
+        </div>
+        <div class="bg-white p-4 shadow rounded">
+          <span class="text-purple-600 font-bold text-lg">3</span>
+          <h4 class="font-bold">Tiger</h4>
+          <img src="tiger.JPEG" alt="Tiger" class="rounded-lg" />
+          <p class="text-gray-700 mt-4">
+            Expedita temporibus culpa reprehenderit.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="bg-gray-50 p-10">
+      <div class="container mx-auto">
+        <div class="flex flex-col md:flex-row items-center">
+          <div class="md:w-1/2 mb-4 md:mb-0">
+            <img src="mothercat.JPEG" alt="Mother Cat" class="rounded-lg" />
+          </div>
+          <div class="md:w-1/2 text-center md:text-left">
+            <blockquote class="italic text-gray-600">
+              "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do"
+            </blockquote>
+            <p class="mt-4 font-bold">Buğra Uğur Toygar</p>
+            <p class="text-gray-500">CEO of Company Co.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white text-center p-4">
+      <p>
+        Our team is here to help you.
+        <a href="#" class="underline">Meet our crew &gt;</a>
+      </p>
+    </footer>
+  </body>
+</html>
